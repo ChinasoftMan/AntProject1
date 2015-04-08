@@ -9,6 +9,6 @@
 		<delete dir="dist" />
 	</target>
 	<target name="compile" depends="init">
-		<javac srcdir="src" destdir="build/classes" />
+		<javac srcdir="src" destdir="build/classes"  encoding="UTF-8"/>
 	</target>
 </project> 
